@@ -28,3 +28,6 @@ if [ "$USER" = "angel" ]; then
 else
     PS1='[\W]\$'
 fi
+
+# Ajouter ~/bin à PATH
+export PATH="$HOME/bin:$PATH"
